@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "./styles/fonts.css";
+@import "./styles/base-layer.css";
+@import "./styles/components-layer.css";
+@import "./styles/utilities-layer.css";
+
+@theme {
+  --color-primary: var(--color-primary);
+  --color-accent: var(--color-accent);
+  --radius: 0.3rem
+}
+
+:root {
+  --color-primary: #3a6f43;
+  --color-secondary: #3a6f43;
+  --color-accent: #3a6f43;
+  --color-text: #4a4a4a;
+  --color-heading: #000000;
+}

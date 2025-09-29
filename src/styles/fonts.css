@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Logika Nova";
+  src: url("/src/fonts/LogikaNova-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Logika Nova";
+  src: url("/src/fonts/LogikaNova-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Logika Nova";
+  src: url("/src/fonts/LogikaNova-Bold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Logika Nova";
+  src: url("/src/fonts/LogikaNova-Heavy.ttf");
+  font-weight: 700;
+}

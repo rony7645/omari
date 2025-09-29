@@ -1,0 +1,12 @@
+@layer components {
+  /* header style  */
+  .site-header {
+    @apply shadow-[0px_4px_15px_#0000000f] h-[100px] flex items-center;
+  }
+  .nav-link {
+    @apply uppercase font-medium text-[13px] tracking-wide hover:text-primary transition duration-500 ease-out;
+  }
+  .primary-btn {
+    @apply py-4 px-8 rounded uppercase border border-primary font-medium inline-block text-[14px] bg-accent text-white hover:bg-transparent hover:text-primary transition duration-300 ease-out;
+  }
+}
