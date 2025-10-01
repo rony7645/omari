@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="#" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shepherd Park Terrace</title>
+</head>
+
+<body>
+  <!-- header here  -->
+<header class="site-header fixed top-0 left-0 w-full bg-white z-50">
+  <div class="container mx-auto px-4 flex items-center justify-between">
+
+    <!-- Left: Logo -->
+    <div class="site-logo">
+      <a href="#home">
+        <img src="/public/img/logo192-iNwPlyj_.png" alt="Logo" class="w-[80px]">
+      </a>
+    </div>
+
+    <!-- Right: Menu + Button -->
+    <div class="flex items-center space-x-6">
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="resident sign-up.html" class="nav-link">Resident Sign-Up</a>
+        <a href="deed-restrictions.html" class="nav-link">Deed Restrictions</a>
+      </nav>
+
+      <!-- Button -->
+      <div class="hidden md:block">
+        <a href="resident sign-up.html"
+          class="primary-btn bg-green-800 hover:bg-transparent hover:text-green-800 border-green-800">
+          Get Started
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <div class="md:hidden">
+        <button id="menu-btn" class="text-gray-800 focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-black-600" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu"
+    class="hidden md:hidden bg-white shadow-lg absolute top-[100px] left-0 w-full px-6 py-4 space-y-4">
+    <a href="index.html" class="block nav-link">Home</a>
+    <a href="about.html" class="block nav-link">About</a>
+    <a href="events.html" class="block nav-link">Events</a>
+    <a href="resident sign-up.html" class="block nav-link">Resident Sign-Up</a>
+    <a href="deed-restrictions.html" class="block nav-link">Deed Restrictions</a>
+    <a href="resident sign-up.html" class="primary-btn bg-green-800 border-green-800 w-full text-center block">Get
+      Started</a>
+  </div>
+</header>
+<section class="relative bg-cover bg-center bg-no-repeat text-center"
+  style="background-image: url('/public/img/Street%20view.jpg');">
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <!-- Content -->
+  <div class="relative pt-20 pb-32 sm:pt-28 sm:pb-40 md:pt-60 md:pb-40">
+    <h2 class="text-white text-4xl sm:text-5xl md:text-6xl font-semibold">
+      About
+    </h2>
+  </div>
+</section>
+
+
+
+
+
+<!-- Section 1: About Shepherd Park Terrace -->
+<section
+  class="py-20 bg-white border-b border-gray-200 font-['Logika Nova'] text-[15px] leading-relaxed text-color-text">
+  <div class="container mx-auto px-6 md:px-12">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <!-- Content -->
+      <div>
+        <h2 class="text-3xl font-semibold text-color-heading mb-6">About Shepherd Park Terrace</h2>
+        <p class="mb-4">
+          The Shepherd Park Terrace Civic Club's purpose is to assist in enforcing all deed restrictions,
+          oversee maintenance, and advocate for neighborhood functions and improvements conducive to the
+          progress of the community and the well-being of its residents.
+        </p>
+        <p>
+          It is an entirely volunteer-based group and is a 501(c)(4) non-profit tax-exempt organization.
+          Our community is thriving after decades of sustained growth, safety, and a shared sense of pride
+          in our collective neighborhood.
+        </p>
+      </div>
+      <!-- Image -->
+      <div>
+        <img src="/public/img/pexels-askar-abayev-5638603.jpg" alt="Community" class="rounded-lg shadow-lg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 2: Community Resources -->
+<section
+  class="py-20 bg-gray-50 border-b border-gray-200 font-['Logika Nova'] text-[15px] leading-relaxed text-color-text">
+  <div class="container mx-auto px-6 md:px-12">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <!-- Image -->
+      <div class="order-2 md:order-1">
+        <img src="/public/img/home.jpg" alt="Community Resources" class="rounded-lg shadow-lg">
+      </div>
+      <!-- Content -->
+      <div class="order-1 md:order-2">
+        <h2 class="text-3xl font-semibold text-color-heading mb-6">Community Resources</h2>
+        <p class="mb-4">
+          Find valuable information about local services, volunteer opportunities, and community
+          projects that make Shepherd Park Terrace a wonderful place to live.
+        </p>
+        <ul class="list-disc list-inside text-[15px] text-color-text space-y-2">
+          <li>Local services and support for residents</li>
+          <li>Volunteer opportunities to get involved</li>
+          <li>Community-driven projects that improve quality of life</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 3: Our Vision for the Future -->
+<section class="py-16 bg-white font-['Logika Nova'] text-[16px] leading-relaxed text-color-text">
+  <div class="container mx-auto px-6 md:px-12 text-center max-w-2xl">
+    <h2 class="text-3xl font-semibold text-color-heading mb-4">
+      Our Vision for the Future
+    </h2>
+    <p>
+      Shepherd Park Terrace is dedicated to preserving its charm while embracing progress.
+      With a focus on sustainability, safety, and inclusivity, we continue building a
+      community where every resident is proud to call home.
+    </p>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer Section Start -->
+<footer class="site-footer bg-gray-900 text-white pt-16 pb-8">
+  <div class="container px-10 mx-auto">
+    <div class="grid md:grid-cols-3 gap-12">
+
+      <div>
+        <a href="/" class="site-logo inline-block mb-6">
+          <img src="/public/img/logo192-iNwPlyj_.png" alt="Shepherd Park Terrace Logo" class="w-[120px]">
+        </a>
+        <p class="text-gray-400 text-base leading-relaxed">
+          Shepherd Park Terrace is a vibrant community fostering
+          connection, growth, and shared experiences for all residents.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-xl font-semibold mb-6">Quick Links</h4>
+        <ul class="space-y-3">
+          <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+          <li><a href="about.html" class="text-gray-400 hover:text-white transition">About</a></li>
+          <li><a href="events.html" class="text-gray-400 hover:text-white transition">Events</a></li>
+          <li><a href="resident sign-up.html" class="text-gray-400 hover:text-white transition">Resident Sign-up</a>
+          </li>
+          <li><a href="deed-restrictions.html" class="text-gray-400 hover:text-white transition">Deed Restrictions</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xl font-semibold mb-6">Contact Us</h4>
+        <ul class="space-y-3 text-gray-400">
+          <li>Email: <a href="mailto:info@spt.com" class="hover:text-white">info@000.com</a></li>
+          <li>Phone: <a href="tel:+123456789" class="hover:text-white">+0 (000) 00000000</a></li>
+          <li>Address: 123 Shepherd Park Terrace, USA</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="border-t border-gray-700 mt-12 pt-6 text-center">
+      <p class="text-gray-500 text-sm">
+        © 2025 Shepherd Park Terrace. All Rights Reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+  <!-- Footer Section End -->
+
+
+
+  <script type="module" src="/src/main.js"></script>
+
+  <script>
+    const btn = document.getElementById("menu-btn");
+    const menu = document.getElementById("mobile-menu");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  </script>
+
+</body>
+
+</html>
